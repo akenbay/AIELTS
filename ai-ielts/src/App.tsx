@@ -1,9 +1,24 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 
-export default function Home() {
+export default function App() {
   return (
-    <div>
-      <Button>Click me</Button>
+    <div className="grid grid-cols-4">
+      <div>
+        <div>1</div>
+        <div>2</div>
+      </div>
+      <div>
+        <div>1</div>
+        <div>2</div>
+      </div>
+      <div>
+        <div>1</div>
+        <div>2</div>
+      </div>
+      <div>
+        <div>1</div>
+        <div>2</div>
+      </div>
     </div>
-  )
+  );
 }
